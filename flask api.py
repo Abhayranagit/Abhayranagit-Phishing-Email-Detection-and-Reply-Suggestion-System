@@ -16,7 +16,7 @@ with open("pickle/tfidf_vectorizer.pkl2", "rb") as f:
     vectorizer = pickle.load(f)
 
 # Mistral API Key
-MISTRAL_API_KEY = "NJAmx6tlSqByNShdmAqU98GKjb6DXMWl"  # Replace with your actual API key
+MISTRAL_API_KEY = "l"  # Replace with your actual API key
 
 # Function to clean email text
 def clean_text(text):
